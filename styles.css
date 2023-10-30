@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Source+Code+Pro:wght@300&display=swap');
+
+*{
+    margin-top: 10px;
+    margin-left:0px;
+ 
+}
+
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(74, 91, 160);
+    font-family: 'Lora', serif;
+    height:50vh;
+    width:200px;
+    transition: transform 0.3s ease-in;
+    border-style: solid;
+}
+
+.sidebar nav{
+    padding:5px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 27px;
+    padding: 10px;
+    
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+
+.main{
+    background-color: white;
+    height: 690px;
+}
+
+.container{
+display: flex;
+}
+
+.infocontainer {
+    background-color: rgb(101, 137, 238);
+    height: 65vh;
+    width: 95vw;
+    margin-left: 10px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.devInfo{
+    font-size: 16x;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 20px;
+    font-family: 'Lora', serif;
+font-family: 'Source Code Pro', monospace;
+
+}
+
+.hello{
+font-size: 4em;
+
+
+}
+
+.name{
+font-size: 5em;
+font-weight: bold;
+font-family: 'Fira Sana',sans-serif;
+
+}
+
+.about{
+font-size: 2.5em;
+}
+
+.moreabout{
+    font-size: 2em;
+    margin-top: 23px;
+    font-family: 'Fira Sana',sans-serif;
+}
+
+.buttons{
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+
+.btn{
+    padding:9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: rgb(238, 98, 98);
+    font-weight: bold;
+    font-size: 2em;
+    margin:3px 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 10px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn:hover{
+    background-color:white;
+    color: dodgerblue;
+}
+
+.devpic img{
+    height: 60vh;
+    width:40vw;
+    border-radius: 50%;
+    border-style:outset;
+}
+
+.contactform{
+    padding: 0 34px;
+    font-family: 'Fira Sana',sans-serif;
+    margin:88px;
+    background-image: url('img_pic.jpg');
+
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    /* padding: 12px 0; */
+}
+
+.contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+/* width: 26vw; */
+border-radius: 5px;
+margin: 6px 0 0 0;
+padding: 3px;
+    
+}
+
+.contactform form{
+   margin:0 40px;
+        
+    }
+    
+
+#emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width:24px;
+    margin: 3px 0;
+}
+
+.resumepic img{
+    height: 90vh;
+    width:70vw;
+    margin-left: 50px;
+    border-style: solid;
+}
+
+.resumeItem{
+    margin: 20px;
+    font-family:'Fira Sana',sans-serif; 
+}
+
+
+.resumeContainer{
+    margin:88px;
+}
+
+
+.h1 {
+    font-family: 'Fira Sana', sans-serif;
+    margin: 23px;
+}
+
+.p{
+    font-family: 'Source Code Pro', monospace;
+}
+
+.intro{
+    margin-left: 20px;
+    margin:50px;
+    
+}
+
+.intro h1{
+
+    font-family: 'Fira Sana', sans-serif;
+    
+}
+
+
+.intro h2{
+
+    font-family: 'Fira Sana', sans-serif;
+    
+}
+
+.intro h3{
+    margin-top: 50px;
+        font-family: 'Fira Sana', sans-serif;
+        
+    }
+
+.intro p{
+    font-family: 'Source Code Pro', monospace; 
+    background-image: url('img_pic.jpg');
+}  
+
+
+
+.projectcontainer{
+    margin-top: 20px;
+}
+
+.skillcontainer{
+    padding: 10px;
+   
+   
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace; 
+    font-weight: 900;
+   
+}
+
+.skill{
+    width: 200px;
+    height:6px;
+    background-color: red;
+    border:2px solid black;
+}
+
+.hundred{
+
+    width:200px;
+    background-color: blueviolet;
+}
+
+.fifty{
+    width:100px;
+    background-color: aqua;
+}
+
+
+.t5{
+    width:50px;
+    background-color: yellow;
+}
+
+.senven5{
+    width:150px;
+    background-color:red;
+}
+
+ .sidebarGo{
+        transform: translate(-443px, 0px);
+        position:absolute;
+    }
+
+.hamburger{
+    position: absolute;
+    cursor:pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: none ;
+    margin-left: none;
+}
+
+.cross{
+    margin-left: 160px;
+    margin-top: none;
+
+}
+
+
+@media(max-width:1615px){
+   
+    .buttons{
+        font-size: 6px;
+    }
+    .devInfo{
+        font-size: 10px;
+    }
+    devPic{
+        display:none;
+    }
+    .resumeContainer,.contactform{
+       margin: 50px 10px;
+    }
+}
+
